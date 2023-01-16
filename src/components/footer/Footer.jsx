@@ -17,7 +17,7 @@ const Footer = () => {
   }
 
   return (
-    <section>
+    <section id='contact'>
       <ul className='container_social'>
         {
           socials.map(social => (
@@ -25,6 +25,9 @@ const Footer = () => {
           ))
         } 
       </ul> 
+      <div>
+        <i className='bx bxl-whatsapp icon_whatsapp'>57+ 320-693-1907</i>
+      </div>
     </section>	
   )
 }

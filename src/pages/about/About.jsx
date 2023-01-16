@@ -7,7 +7,9 @@ const About = () => {
 
 
   return (
-    <div className='about'>
+    <>
+      <span style={{padding: '1rem'}} id='about'></span>
+      <div  className='about'>
         <p className='text_preset'>
           Hola, me llamo Josué Sarmiento Vides tengo 20 años.
           He desarrollado experiencia como Front-End desarrollando aplicaciones 
@@ -18,10 +20,11 @@ const About = () => {
           soluciones a problemas de la Empresa. Espero ser parte del proyecto y ayudar a 
           cumplir los objetivos.
         </p>
-      <div className='img_slider'>
-        <SliderSkills/>
+        <div className='img_slider'>
+          <SliderSkills/>
+        </div>
       </div>
-    </div>
+    </> 
   )
 }
 

@@ -16,3 +16,8 @@
     background-position-y: top;
     position: relative;
 }
+@media (max-width 1200px) {
+    .section {
+        background-position: right;
+    }
+}

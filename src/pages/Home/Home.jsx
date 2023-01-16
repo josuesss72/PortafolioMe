@@ -15,10 +15,18 @@ const Home = () => {
 	},[])
 
 	return (
-		<article className='title'>
-			<h1 ref={el}></h1>
-			<h2><a href="">Informacion sobre mi 👇🏽</a></h2>
+		<>
+			<span id="home"></span>
+			<article  className='title'>
+			<div className="box_img_home">
+				<img src="../../../images/me2.jpg" alt="" />
+			</div>
+			<div className="box_title">
+				<h1 ref={el}></h1>
+				<h2><a href="#about">Informacion sobre mi 👇🏽</a></h2>
+			</div>
 		</article>
+		</>	
 	)
 }
 

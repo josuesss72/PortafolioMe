@@ -9,11 +9,9 @@ const Section = ({
   header, 
   brd, 
   content, 
-  imgBg,
   marg
   }) => {
   
-  console.log(imgBg)
   const styleSection = {
     backgroundColor: bgcolor,
     height: large,
@@ -21,7 +19,6 @@ const Section = ({
     borderRadius: brdR,
     border: brd,
     placeContent: content,
-    backgroundImage: `url(${imgBg && imgBg[0]})` ,
     margin: marg
   }
   if(window.scrollY < 0){

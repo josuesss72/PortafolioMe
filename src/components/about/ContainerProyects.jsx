@@ -5,15 +5,18 @@ const ContainerProyects = () => {
   const proyects = getProyects()[0].proyects
 
   return (
-    <section className='container_proyects'>
-      {
-        proyects.map(proyect => {
-          return (
-            <Proyect key={ proyect.id } proyect={ proyect }/>
-          )  
-        }) 
-      } 
-    </section>
+    <>
+      <span id='proyects'></span>
+      <section  className='container_proyects'>
+        {
+          proyects.map(proyect => {
+            return (
+              <Proyect key={ proyect.id } proyect={ proyect }/>
+            )  
+          }) 
+        } 
+      </section>
+    </> 
   )
 }
 
