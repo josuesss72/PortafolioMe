@@ -9,18 +9,26 @@
     right: 0;
     left: 0;
     margin: 0 auto;
+    gap: 1rem;
 }
 .img_social {
-    width: 70px;
-    background-color: white;
+    width: 60px;
     border-radius: 50%;
     padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.38);
+    border-radius: 50%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(16.2px);
+    -webkit-backdrop-filter: blur(16.2px);
 }
 .social {
     cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.social p {
+    color: white;
 }
 .icon_whatsapp {
     position: absolute;

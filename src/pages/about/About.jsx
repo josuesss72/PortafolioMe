@@ -16,7 +16,7 @@ const About = () => {
           y paginas web en proyectos Universitarios, manejo tecnologías de buen 
           desempeño actualmente, como JavaScript, HTML5, Sass, Reactjs, Redux, 
           Nodejs y Git. Sigo aprendiendo nuevas tecnologías para superarme a mi mismo, 
-          me siento capaz de colaborar y trabajar de la mano con un equipo  y presentar 
+          soy capaz de colaborar y trabajar de la mano con un equipo  y presentar 
           soluciones a problemas de la Empresa. Espero ser parte del proyecto y ayudar a 
           cumplir los objetivos.
         </p>

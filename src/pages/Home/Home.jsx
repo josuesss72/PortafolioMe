@@ -1,5 +1,6 @@
 import Typed from "typed.js"
 import { useEffect, useRef } from "react"
+import ButtonCv from "../../components/buttonCv/ButtonCv"
 
 const Home = () => {
 	
@@ -7,7 +8,7 @@ const Home = () => {
 	
 	useEffect(()=>{
 		const typed = new Typed(el.current, {
-			strings:["Hola 👦🏽, soy Josue bienvanido a mi portafolio 💼"],
+			strings:["Front-End Developer"],
 			typeSpeed: 75,
 			startDelay: 300,
 			showCursor: false
@@ -23,6 +24,11 @@ const Home = () => {
 			</div>
 			<div className="box_title">
 				<h1 ref={el}></h1>
+				<div className="box_text_home">
+					<p className="text_home">Me especializo en React.js para el desarrollo de aplicaciones web en el ambito front-end completamente responsive y que se ajuste a tus necesidades como cliente. </p>
+					<ButtonCv color='white'/>
+				</div>	
+					
 				<h2><a href="#about">Informacion sobre mi 👇🏽</a></h2>
 			</div>
 		</article>
