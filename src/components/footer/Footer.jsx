@@ -26,7 +26,7 @@ const Footer = () => {
         } 
       </ul> 
       <div>
-        <i className='bx bxl-whatsapp icon_whatsapp'>57+ 320-693-1907</i>
+        <i className='bx bxl-whatsapp icon_whatsapp'>57+ 320-683-1907</i>
       </div>
     </section>	
   )
