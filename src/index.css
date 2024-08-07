@@ -25,6 +25,10 @@
     --green-400-color: #A3AD94;
     --green-300-color: #C2C9B8;
     --green-200-color: #E0E4DC;
+
+    --text-title: 96px;
+    --text-subtitle: 48px;
+    --text-h3: 40px
 }
 
 * {
@@ -39,6 +43,11 @@ body {
     height: 100%;
     font-family: 'Poppins', monospace;
     color: #F7F7F7;
+}
+
+#root {
+    background-color: var(--background-500-color);
+    height: 100vh;
 }
 
 ul {
