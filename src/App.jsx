@@ -1,4 +1,3 @@
-
 import './App.css'
 import Section from './components/section/Section'
 import './components/section/Section.css'
@@ -14,7 +13,6 @@ import Header from './components/header/Header'
 import './components/header/Header.css'
 
 function App() {
-
 
   return (
     <div className="App">
