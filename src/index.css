@@ -1,7 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root {
-    --first_color: #506D84;
+    --background-500-color: #040204;
+    --background-400-color: #333333;
+    --background-300-color: #666666;
+    --background-200-color: #999999;
+    --primary-500-color: #D1AE45;
+    --primary-400-color: #DCC274;
+    --primary-300-color: #E8D6A2;
+    --primary-200-color: #F3EBD1;
+    --red-500-color: #87240E;
+    --red-400-color: #C83515;
+    --red-300-color: #EB5B3B;
+    --red-200-color: #F1917C;
+    --secundary-500-color: #466CA6;
+    --secundary-400-color: #6E90C2;
+    --secundary-300-color: #9FB5D6;
+    --secundary-200-color: #CFDAEB;
+    --white-500-color: #D6CFC4;
+    --white-400-color: #E0DBD3;
+    --white-300-color: #EBE7E2;
+    --white-200-color: #F5F3F0;
+    --green-500-color: #849271;
+    --green-400-color: #A3AD94;
+    --green-300-color: #C2C9B8;
+    --green-200-color: #E0E4DC;
 }
 
 * {
