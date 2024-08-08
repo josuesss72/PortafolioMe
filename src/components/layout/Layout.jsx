@@ -2,10 +2,11 @@ import React from 'react';
 import Header from './components/header/Header';
 import styles from './Layout.module.css'
 
-const Layout = () => {
+const Layout = ({children}) => {
     return (
-        <div>
+        <div className={styles.container}>
             <Header/>
+            {children}
         </div>	
     )
 }

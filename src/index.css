@@ -43,11 +43,13 @@ body {
     height: 100%;
     font-family: 'Poppins', monospace;
     color: #F7F7F7;
+    background-color: var(--background-500-color);
 }
 
 #root {
-    background-color: var(--background-500-color);
-    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 ul {
