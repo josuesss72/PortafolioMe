@@ -1,10 +1,18 @@
-import React from 'react'; 
+import React, {useEffect} from 'react'; 
 import styles from './Presentation.module.css'
 import { motion } from 'framer-motion';
 import {useAnimations} from '../../hooks/useAnimations';
+import {useNavigate} from 'react-router';
 
 const Presentation = () => {
   const { transitionRight, fade, transitionLeft, transitionBottom} = useAnimations() 
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    setTimeout(() => {
+      navigate('/proyects') 
+    }, 5100)
+  }, [])
 
   return (
     <section className={styles.container}>
