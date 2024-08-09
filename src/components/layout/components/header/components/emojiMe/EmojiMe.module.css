@@ -1,0 +1,17 @@
+.containerImage {
+   display: flex;
+   position: relative;
+   width: 60px;
+}
+
+.image {
+   width: 100%;
+}
+
+.containerImage .image:last-child {
+   position: absolute;
+   left: 2px;
+   top: 0;
+}
+
+

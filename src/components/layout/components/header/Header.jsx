@@ -1,17 +1,14 @@
 import React  from 'react'; 
 import styles from './Header.module.css'
+import EmojiMe from './components/emojiMe/EmojiMe';
 
 const Header = () => {
   // component header
-  // Note: Finish the component, design it and add some animations. 
   
   return (
     <header className={styles.header}>
       <section className={styles.containerLogo}>
-        <article className={styles.containerImage}>
-          <img src="/Avatars/logo.png" alt="" />
-          <img src="/Avatars/logo-2.png" alt="" />
-        </article> 
+        <EmojiMe/> 
         <article className={styles.containerName}>
           <h1>Josue Sarmiento</h1>
           <h2>Developer</h2>

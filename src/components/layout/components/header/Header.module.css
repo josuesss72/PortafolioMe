@@ -1,0 +1,24 @@
+.header {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.containerLogo {
+   display: flex;
+   align-items: center;
+}
+
+.containerName {
+   display: flex;
+}
+
+.containerNavigation {
+   display: flex;
+   align-items: center;
+}
+
+.containerUl {
+   display: flex;
+}
