@@ -3,22 +3,53 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
+   padding: var(--prymary-padding);
 }
 
 .containerLogo {
    display: flex;
    align-items: center;
+   gap: var(--prymary-padding);
 }
 
 .containerName {
    display: flex;
+   gap: var(--line-spacing-light);
+}
+
+.title {
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.subtitle {
+   font-size: 20px;
+   font-weight: 500;
+   color: var(--primary-500-color);
+   margin-top: auto;
 }
 
 .containerNavigation {
    display: flex;
    align-items: center;
+   gap: var(--prymary-padding);
 }
 
 .containerUl {
    display: flex;
+   gap: var(--prymary-padding);
+}
+
+.item {
+   font-weight: 300;
+}
+
+.button {
+   padding: var(--padding-buttton);
+   border-radius: 5px;
+   font-size: 18px;
+   border: 0;
+   color: var(--white-500-color);
+   box-shadow: none;
+   background-color: var(--background-400-color);
 }

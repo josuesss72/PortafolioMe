@@ -10,8 +10,8 @@ const Header = () => {
       <section className={styles.containerLogo}>
         <EmojiMe/> 
         <article className={styles.containerName}>
-          <h1>Josue Sarmiento</h1>
-          <h2>Developer</h2>
+          <h1 className={styles.title}>Josue Sarmiento</h1>
+          <h2 className={styles.subtitle}>Developer</h2>
         </article>
       </section>
       <section className={styles.containerNavigation}>

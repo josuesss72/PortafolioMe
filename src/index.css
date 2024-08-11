@@ -28,7 +28,12 @@
 
     --text-title: 96px;
     --text-subtitle: 48px;
-    --text-h3: 40px
+    --text-h3: 40px;
+
+    --line-spacing-light: 0.5rem;
+
+    --prymary-padding: 1rem;
+    --padding-buttton: 0.6rem 1rem 0.6rem 1rem; 
 }
 
 * {
