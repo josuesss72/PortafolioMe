@@ -6,7 +6,6 @@ const ProyectsPage = () => {
 	return (
 		<Layout>
 			<main>
-				<h1>ProyectsPage</h1>
 			</main>
 		</Layout>	
 	)
