@@ -10,7 +10,7 @@ const Presentation = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      navigate('/proyects') 
+      navigate('/contact') 
     }, 5100)
   }, [])
 
